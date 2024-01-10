@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+
+    <title>Layout Website</title>
+</head>
+
+<body style="height: 5000px;">
+    <div class="container m-5">
+
+        <h4 class="text-center">Utilities Bootstrap 5</h4>
+        <h2 class="text-center">Dispaly, Float And Position</h2>
+        <hr>
+
+
+        <!-- Lets Begin -->
+
+
+
+        <h3 class="text-primary">Display</h3>
+        <p>Bagaimana Perilaku dari Display..?</p>
+        <!-- Div & Span -> Pengelompokan -->
+        
+        <span></span>
+        <div></div>
+        <!-- 
+        Popular Display : 
+        1. Inline
+        2. Block
+        3. inline-block
+        4. flex
+        5. Grid
+        6 . etc -->
+
+
+        <!-- 1. Inline -->
+
+        <!-- Span Display = Inline -->
+        <!-- a. Inline tidak menambahkan baris ketika ditambahkan elment yang memiliki display inline di dekatnya. (Span) -->
+        <span>agus</span>
+        <span>yanto</span>
+        <!-- b. lebar dan tingginya sesuai element didalamnya  -->
+        <span class="bg-primary">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt molestias quos debitis vitae totam, dolor accusamus exercitationem, inventore veritatis aliquam dolores! Soluta similique accusamus delectus praesentium! Laborum iste blanditiis optio.</span>
+        <!-- c. tinggi dan lebar tidak dapat di atur -->
+        <span class="bg-primary" style="width: 500px; height: 100p;">Dyah Ayu</span>
+        <!-- d. margin & pading hanya mempengaruhi element secara horizontal tidak Vertical -->
+        <span class="bg-success m-5">putt</span>
+        <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi voluptate nesciunt architecto quisquam earum quam, eligendi odit minus blanditiis porro saepe cum voluptatem rerum perferendis! Provident nihil magni cumque animi.</span>
+        <!-- 2. Block -->
+        <!--Div Display = Block -->
+
+        <!-- a. menambahkan baris baru ketika ditambahkan element HTML yang memiliki display block -->
+        <hr>
+        <div>Putri</div>
+        <div>Kayla</div>
+        <!-- b. dapat di atur lebar dan tigginya, tapi jika tidak di atur secara default lebarnya akan memenuhi atau sesuai dengan element pembungkusnya -->
+
+
+        <div class="bg-warning" style="width: 100px; height: 100px;">IYAA</div>
+        <!-- 3. Inline-Block -->
+        <hr>
+        <div class="d-inline-block bg-primary">Aprillia</div>
+        <div class="d-inline-block bg-primary" style="width: 50px; height: 50px">put</div>
+        <!-- Display Inline-Block -->
+        <!-- a. Berperilaku seperti inline & Block -->
+
+        <!-- Merubah Display di bootstarp 5 -->
+        <div class="d-inline">Bagus</div>
+        <div class="d-inline">Bagus</div>
+        <span class="d-block">Rafly</span>
+        <span class="d-block">Rafly</span>
+
+
+        <hr>
+        <h3 class="text-primary">Float</h3>
+        <p>Bagaimana Perilaku dari Float..?</p>
+
+        <!-- 4. Float -->
+        <!-- 1. Mangatur Posisi pada sebuah element. -->
+        <!-- 2. dipaksa berada di sebelah kanan atau kiri pada element pembungkusnya atau istilahnya mengambang. -->
+        <!-- 3. prilakunya berbeda dengan alignment. -->
+        <!-- 4. Clear fix -> membersihkan float -> collaps -->
+
+
+        <div style="width: 500px; height: 100px;" class="bg-secondary">
+            <div style="width: 100px; height: 100px;" class="bg-primary float-end">elemen 1</div>
+            <div style="width: 100px; height: 100px;" class="bg-primary float-end">elemen 2</div>
+            <div style="width: 100px; height: 100px;" class="bg-primary float-end">elemen 3</div>
+        </div>
+
+
+        <br>
+        <h3 class="text-primary">Position</h3>
+        <p>Bagaimana Perilaku dari Position..?</p>
+        <!-- 5. Position -->
+
+        <!-- a. Static -->
+        <!-- b. Retalive -->
+        <!-- c. Absolute -->
+        <!-- d. Fixed -->
+
+        <div class="bg-secondary" style="width: 500px; height:500px;">
+            <div style="width: 100px; height: 100px;" class="bg-primary">elemen 1</div>
+            <div style="width: 100px; height: 100px;" class="bg-success">elemen 2</div>
+            <div style="width: 100px; height: 100px;" class="bg-warning">elemen 3</div>
+        </div>
+    </div>
+
+    <!-- End Session -->
+    <!--Thank You -->
+
+
+
+
+
+
+    <!-- Bootstrap Javascript -->
+    <script src="js/bootstrap.js"></script>
+
+    <!-- Popper Javascript -->
+    <script src="js/popper.min.js"></script>
+</body>
+
+</html>
